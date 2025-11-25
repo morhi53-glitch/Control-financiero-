@@ -1,0 +1,9 @@
+control-financiero-maritimo/
+│
+├── index.html          # Archivo principal
+├── css/
+│   └── style.css       # Estilos de la aplicación
+├── js/
+│   └── app.js          # Lógica de la aplicación
+├── README.md           # Documentación
+└── assets/             # Recursos adicionales
