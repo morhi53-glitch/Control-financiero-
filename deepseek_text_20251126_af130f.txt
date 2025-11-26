@@ -1,0 +1,10 @@
+control-financiero-maritimo/
+├── index.html
+├── manifest.json
+├── sw.js
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   └── pwa.js
+└── README.md
