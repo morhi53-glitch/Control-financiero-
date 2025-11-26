@@ -1,9 +1,0 @@
-
-## Para crear el ZIP:
-
-1. Crea una carpeta llamada `control-financiero-maritimo`
-2. Coloca todos los archivos en sus respectivas carpetas
-3. Comprime la carpeta como ZIP
-4. Sube el ZIP a GitHub o extrae los archivos directamente en tu repositorio
-
-¿Necesitas que te ayude con algún paso específico del proceso?
