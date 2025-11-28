@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi App PWA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d6efd" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <header>
+    <h1>Mi App PWA</h1>
+    <p>Ejemplo básico listo para GitHub Pages.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Notas rápidas</h2>
+      <input id="nota-input" type="text" placeholder="Escribe una nota..." />
+      <button id="add-btn">Añadir</button>
+
+      <ul id="lista-notas"></ul>
+    </section>
+
+    <p class="status" id="status"></p>
+  </main>
+
+  <footer>
+    <small>Funciona offline gracias al Service Worker 🛰️</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
