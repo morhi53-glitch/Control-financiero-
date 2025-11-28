@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Financiero - Transporte Marítimo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Control Financiero - Transporte Marítimo</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#dashboard" class="nav-link active" data-section="dashboard">Dashboard</a></li>
+                    <li><a href="#transactions" class="nav-link" data-section="transactions">Transactions</a></li>
+                    <li><a href="#barcos" class="nav-link" data-section="barcos">Barcos</a></li>
+                    <li><a href="#reportes" class="nav-link" data-section="reportes">Reportes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <h2>Dashboard</h2>
+                <div class="dashboard-grid">
+                    <div class="card">
+                        <h3>Resumen Financiero</h3>
+                        <p class="amount">$1,250,000</p>
+                        <span class="label">Balance Total</span>
+                    </div>
+                    <div class="card">
+                        <h3>Viajes Activos</h3>
+                        <p class="amount">12</p>
+                        <span class="label">Barcos en Ruta</span>
+                    </div>
+                    <div class="card">
+                        <h3>Gastos del Mes</h3>
+                        <p class="amount">$45,800</p>
+                        <span class="label">Total Gastos</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transactions Section -->
+            <section id="transactions" class="section">
+                <h2>Transactions</h2>
+                <div class="transactions-list">
+                    <div class="transaction-item">
+                        <div class="transaction-info">
+                            <span class="transaction-date">15 Nov 2024</span>
+                            <span class="transaction-description">Pago de combustible</span>
+                        </div>
+                        <span class="transaction-amount negative">-$8,500</span>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="transaction-info">
+                            <span class="transaction-date">14 Nov 2024</span>
+                            <span class="transaction-description">Ingreso por flete</span>
+                        </div>
+                        <span class="transaction-amount positive">+$25,000</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Barcos Section -->
+            <section id="barcos" class="section">
+                <h2>Barcos</h2>
+                <div class="barcos-grid">
+                    <div class="barco-card">
+                        <h3>Mariner I</h3>
+                        <p>Estado: <span class="status active">En ruta</span></p>
+                        <p>Última posición: 15°N, 75°W</p>
+                    </div>
+                    <div class="barco-card">
+                        <h3>Ocean Master</h3>
+                        <p>Estado: <span class="status maintenance">En mantenimiento</span></p>
+                        <p>Puerto: Cartagena</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reportes Section -->
+            <section id="reportes" class="section">
+                <h2>Reportes</h2>
+                <div class="reports-options">
+                    <button class="report-btn">Reporte Financiero Mensual</button>
+                    <button class="report-btn">Reporte de Flota</button>
+                    <button class="report-btn">Estado de Viajes</button>
+                    <button class="report-btn">Gastos Operativos</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
