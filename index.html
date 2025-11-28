@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Financiero - Transporte Marítimo</title>
+    <style>
+        /* TODO EL CSS AQUÍ - IGUAL AL CÓDIGO ORIGINAL QUE TE PUSE ANTES */
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --success: #2ecc71;
+            --danger: #e74c3c;
+            --warning: #f39c12;
+            --light: #ecf0f1;
+            --dark: #34495e;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* ... (TODO EL RESTO DEL CSS ORIGINAL) ... */
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- TODO EL HTML ORIGINAL AQUÍ -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-ship"></i>
+                    <h1>Control Financiero - Transporte Marítimo</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link active" data-target="dashboard">Dashboard</a></li>
+                        <li><a href="#" class="nav-link" data-target="transactions">Transacciones</a></li>
+                        <li><a href="#" class="nav-link" data-target="ships">Barcos</a></li>
+                        <li><a href="#" class="nav-link" data-target="reports">Reportes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- TODO EL CONTENIDO ORIGINAL -->
+    </main>
+
+    <script>
+        // TODO EL JAVASCRIPT ORIGINAL AQUÍ
+        // Datos iniciales de ejemplo
+        const exampleTransactions = [
+            {
+                id: 1,
+                date: '2023-10-20',
+                description: 'Transporte de contenedores a Panamá',
+                shipId: 1,
+                type: 'income',
+                amount: 8500.00
+            },
+            // ... resto del código JavaScript original
+        ];
+
+        // Variables globales
+        let transactions = [];
+        let ships = [];
+        let editingTransactionId = null;
+        let editingShipId = null;
+
+        // Inicializar la aplicación
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeApp();
+        });
+
+        function initializeApp() {
+            loadDataFromStorage();
+            setupNavigation();
+            setupForms();
+            setupDataManagement();
+            loadTransactions();
+            loadShips();
+            updateDashboard();
+            updateReports();
+            setupCharts();
+        }
+
+        // ... resto de las funciones JavaScript originales ...
+
+    </script>
+</body>
+</html>
