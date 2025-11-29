@@ -779,8 +779,9 @@ function formatDate(dateString) {
 }
 
 function setupCharts() {
-   
 
+    
+}
 // === REGISTRO DEL SERVICE WORKER (PWA) ===
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
