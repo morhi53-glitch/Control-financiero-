@@ -779,8 +779,20 @@ function formatDate(dateString) {
 }
 
 function setupCharts() {
+// ... (todo lo que ya tienes dentro)
 
-    
+    // --- 5) Ingresos por barco reales ---
+    const incomeByShipCanvas = document.getElementById('incomeByShipChart');
+    if (incomeByShipCa
+} // ← AQUÍ TERMINA setupCharts
+
+// === REGISTRO DEL SERVICE WORKER (PWA) ===
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+            .register('./sw.js')
+            .catch(err => console.error('Error registrando Service Worker:', err));
+    });    
 }
 // === REGISTRO DEL SERVICE WORKER (PWA) ===
 if ('serviceWorker' in navigator) {
