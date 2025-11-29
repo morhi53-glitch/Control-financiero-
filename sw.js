@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'control-marino-v1';
+const CACHE_NAME = 'control-marino-v2';
 const URLS_TO_CACHE = [
   './',
   './index.html',
